@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Todo List App</title>
+    <link rel="stylesheet" href="./todo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <main class="app">
+        <div class="header-container">
+            <h1>My Todo List</h1>
+        </div>
+        <div class="input-header">
+            <div class="date-input-container">
+                <h1><span id="date"></span></h1>
+            <div class="todo-input">
+                <input type="text" id="item" placeholder="Enter your task..."><button id="addBtn">Add</button>
+            </div>
+            </div>          
+            <div class="todo-list"></div>
+        </div>
+    </main>
+    <script src="./todo.js"></script>
+
+    <!-- <div class="item">
+        <div class="input-controller">
+            <textarea disabled></textarea>
+            <div class="edit-controller">
+                <i class="fa-solid fa-check deleteBtn"></i>
+                <i class="fa-regular fa-pen-to-square editBtn"></i>
+            </div>
+        </div>
+        <div class="update-controller">
+            <button class="saveBtn">Save</button>
+            <button class="cancelBtn">Cancel</button>
+        </div>
+    </div> -->
+</body>
+</html>
